@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zerot1"
+          name="Zero试炼节点 - One"
+		  ip="Zero.CDN.1.192"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4" 
+		  ico="Server" >
+
+<adminPass pass="cscscsccc" />
+
+<ports>80, 22, 21, 443</ports>
+<portRemap>80=8080,21=9012</portRemap>
+
+<portsForCrack val="4" />
+<proxy time="1" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+
+
+  <file path="Bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="Bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="Bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="Bin" name="Clockv2.exe">#CLOCK_V2_EXE#</file>
+  <file path="home" name="Readme.txt">Please Scan Memory!</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>connect Zero.Server.Firewall.212</Command>
+      <Command>login</Command>
+      <Command>User:admin</Command>
+      <Command>Password:GGFGFGFGFGF</Command>
+      <Command>ls</Command>
+      <Command>scp *</Command>
+      <Command>dc</Command>
+
+    </Commands>
+    <Data>
+      <Block>
+呵呵！
+      </Block>
+    </Data>
+    <Images>
+    </Images>
+  </Memory>
+  
+  
+  <CustomConnectDisplayDaemon />
+  <dlink target="zerot2" />
+
+</Computer>

@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<!--Sequencer Actions-->
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Bleed_Music.ogg"/>
+<StartScreenBleedEffect AlertTitle="MOZAI HACKER TRACER" CompleteAction="Actions/StartingActions.xml" TotalDurationSeconds="1200" playHost="zeroDHS" Delay="0">THIS IS A OVER</StartScreenBleedEffect>
+</Instantly>
+
+</ConditionalActions>

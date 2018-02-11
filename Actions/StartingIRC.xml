@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddIRCMessage Author="Cortana" TargetComp="zeroIRC" Delay="0.0">@AllUser-#PLAYERNAME#已经加入频道，大家粗来打个招呼吧！</AddIRCMessage>
+    <AddIRCMessage Author="Mozai" TargetComp="zeroIRC" Delay="0.0">又来新人了</AddIRCMessage>
+    <AddIRCMessage Author="Xiao_yong" TargetComp="zeroIRC" Delay="0.0">@Mozai-你快去打个招呼吧</AddIRCMessage>
+    <AddIRCMessage Author="Starlight_two" TargetComp="zeroIRC" Delay="0.0">果然是闲聊IRC......</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroIRC" Delay="0.0">=====这是来自ZeroDHS的聊天内容=====</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroIRC" Delay="0.0">@AllUser-#PLAYERNAME#已经加入频道，大家粗来打个招呼吧！</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroIRC" Delay="0.0">Hi，#PLAYERNAME#！我是本IRC的机器人Cortana!</AddIRCMessage>
+	<AddIRCMessage Author="AICore" TargetComp="zeroIRC" Delay="0.0">#PLAYERNAME#已经加入加入内网白名单!</AddIRCMessage>
+	<AddIRCMessage Author="Xiao_yong" TargetComp="zeroIRC" Delay="0.0">@#PLAYERNAME#-欢迎加入我们!</AddIRCMessage>
+	<AddIRCMessage Author="U3u3u3" TargetComp="zeroIRC" Delay="0.0">@Xiao_yong-又来新人了</AddIRCMessage>	
+	<AddIRCMessage Author="Mozai" TargetComp="zeroIRC" Delay="0.0">@#PLAYERNAME#-欢迎加入我们!</AddIRCMessage>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroIRC" Delay="0.0">@AllUser-老子搞到ClockV2啦!要的去Tools服务器下载！</AddIRCMessage>	
+	<AddIRCMessage Author="Mozai" TargetComp="zeroIRC" Delay="0.0">@#PLAYERNAME#-我差点忘记了</AddIRCMessage>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroIRC" Delay="0.0">!ATTACHMENT:account#%#zeroDrop#%#111.111.111.111#%#admin#%#Zero_Drop</AddIRCMessage>
+    <AddIRCMessage Author="Mozai" TargetComp="zeroIRC" Delay="0.0">!ATTACHMENT:account#%#zeroTool#%#111.111.111.112#%#admin#%#Zero_Tool</AddIRCMessage>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroIRC" Delay="0.0">!ATTACHMENT:account#%#zeroIRC#%#9.9.9.9#%##PLAYERNAME##%#23333</AddIRCMessage>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroIRC" Delay="0.0">@AllUser-大家别聊了，开始干活吧!</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroIRC" Delay="0.0">@AllUser-Starlight_two已经加入频道，大家粗来打个招呼吧！</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroIRC" Delay="0.0">Hi，Starlight_two！我是本IRC的机器人Cortana!</AddIRCMessage>
+	<AddIRCMessage Author="AICore" TargetComp="zeroIRC" Delay="0.0">Starlight_two已经加入加入内网白名单!</AddIRCMessage>
+	<AddIRCMessage Author="Xiao_yong" TargetComp="zeroIRC" Delay="0.0">@Starlight_two-又是你！快点开始干活吧!</AddIRCMessage>
+	<AddIRCMessage Author="Starlight_two" TargetComp="zeroIRC" Delay="0.0">好了，老子知道了!</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroIRC" Delay="0.0">=====此内容由@Starlight_two转发=====</AddIRCMessage>
+  </Instantly>
+
+</ConditionalActions>

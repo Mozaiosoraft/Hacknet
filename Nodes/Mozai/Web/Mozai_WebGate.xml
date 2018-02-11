@@ -1,0 +1,40 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Mozai_WebGate" name="Mozai-网关" ip="6666.3333.3333.0001" type="empty" security="7" icon="chip" >
+<adminPass pass="intranet"/>
+  <account username="TestAdmin" password="myname" type="ALL" />
+  <portsForCrack val="999998" />
+  <firewall additionalTime="255.0" solution="MozaiIntranet" level="7"/>
+  <ports>554, 443, 80, 21, 22, 25, 211, 3724</ports>
+  <proxy time="9998"/>
+  <portRemap>554=1887,80=8085,21=2333,22=445,25=2122,3724=3050,211=9871</portRemap>
+  <trace time="5" />
+  <!--tracker /-->
+  
+ <!--
+  <dlink target="Mozai-WebTemp"/> 
+  <dlink target="Mozai-UsersData"/>
+  <dlink target="Mozai-Test"/>
+  <dlink target="Mozai-独立路由"/>
+ -->
+  <file path="Setup" name="Web_blacklist.ini">*.youku.com#www.so.com#www.ailyun.com</file>
+  <file path="Setup" name="Web_whitelist.ini">hao.360.com#</file>
+  <file path="home" name="网关记录-2017-8-13.txt">
+  Mozai Intranet
+  地址池:200.000.000.001-9999.9999.9999.9999
+  指定Web端口:是
+  Web端口:9871
+  单用户网络限制:上传 100M/s  下载:100M/s
+  ISP:255.200.211.129
+  DDoS防火墙:255.254.253.252
+  DDoS防火墙配置文件://255.254.253.252/Config/binconfig.xml
+  EnSec保护地址:322.000.000.001-6666.4444.4444.1111
+  EnSec配置文件:151.156.1.12/home/EnSec/EnSecConfig1.encon
+  防火墙:开启 密码:*****Intra*** 延迟:255s
+  代理:开启 过载时间:9998
+  </file>										 
+                                                											 
+
+  <CustomConnectDisplayDaemon />
+  
+
+</Computer>

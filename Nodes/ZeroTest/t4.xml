@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zerot4"
+          name="Zero试炼节点 - Four"
+		  ip="Zero.Database.43.11"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4" 
+		  ico="Server" >
+
+<adminPass pass="******" />
+
+<ports>80, 22, 21, 443, 1433</ports>
+<portRemap>80=8080,21=9012,1433=3306</portRemap>
+
+<portsForCrack val="5" />
+<proxy time="1" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+
+
+  <file path="home" name="Readme.txt">OK!</file>
+  
+  
+  
+  <CustomConnectDisplayDaemon />
+
+</Computer>

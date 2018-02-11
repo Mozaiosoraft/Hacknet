@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="laoqiuNode1" name="laoqiu_GateWay" ip="233.250.450.666" type="empty" security="3" icon="Server">
+
+<adminPass pass="N00b" />
+
+  <portsForCrack val="2" />
+  <ports>22, 554</ports>
+  <trace time="54250" />
+  
+  <file path="home" name="SB.docx">NOOBHacker</file>
+  
+  <dlink target="laoqiu_whitelist" />
+ 
+  <WhitelistAuthenticatorDaemon Remote="laoqiu_whitelist" />
+
+ 
+</Computer>

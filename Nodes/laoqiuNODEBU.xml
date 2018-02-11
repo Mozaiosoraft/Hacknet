@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="laoqiuNodeBU" name="laoqiu=-=" ip="250.233.450.6616" type="empty" security="3" icon="Server" >
+
+<adminPass pass="N00b" />
+
+  <portsForCrack val="2" />
+  <ports>22,554</ports>
+  <trace time="54250" />
+  
+  <file path="home" name="SB.docx">NOOBHacker</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <dlink target="laoqiuNode" />
+ 
+
+</Computer>

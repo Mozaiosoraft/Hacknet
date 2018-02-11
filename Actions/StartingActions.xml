@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+  </Instantly>
+
+</ConditionalActions>

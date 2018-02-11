@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Mozai_WebTemp" name="Mozai 网络缓存" ip="243.222.111.6616" type="empty" security="5" icon="chip" >
+<adminPass pass="Mozai-Temp"/>
+  <account username="TestAdmin" password="myname" type="ALL" />
+  <portsForCrack val="2" />
+  <firewall additionalTime="0.12" solution="Mozai-Temp" level="7"/>
+  <ports>443, 21, 3724</ports>
+  <proxy time="1"/>
+  <portRemap>443=9871,21=53,3724=3050</portRemap>
+  <trace time="300" />
+  
+  <file path="home" name="hey.txt">#SQL_CRACK#你们没发现重负荷密码是Mozai-DDoS_（A-B）么，还有，没人发现这是SQLBuffer么?</file>
+  <file path="home" name="Let's play">##NETMAP_ORGANIZER_EXE#</file>
+  
+ <!--
+ ##<dlink target="Mozai-独立路由"/>
+ -->
+ <dlink target="Mozai-Whitelist1"/>
+ <dlink target="Mozai-Whitelist2"/>
+ <dlink target="Mozai-Whitelist3"/>
+ 
+  <CustomConnectDisplayDaemon />
+
+  
+  
+</Computer>

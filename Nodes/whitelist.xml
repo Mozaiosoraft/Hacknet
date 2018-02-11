@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="whitelist" name="Game White List" ip="1334.1334.1334.1334" type="empty" security="9999" >
+
+<adminPass pass="Shit" />
+  
+  <portsForCrack val="9999998" />
+  <ports>3427</ports>
+  <proxy time="9999" />
+  <trace time="54250" />
+  
+  
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+  <file path="Whitelist" name="list.txt">132.166.240.254</file>
+  
+</Computer>

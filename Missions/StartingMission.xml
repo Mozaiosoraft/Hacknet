@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+    <!-- Goals here -->
+    <goal type="getadmin" target="zerot4"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="1">loadConditionalActions:Actions/StartingDHS.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Mozai</sender>
+    <subject>Zero的试炼</subject>
+    <body>
+Hello！#PLAYERNAME#，我是Mozai，也是Zero组织的掌门人。欢迎你再次回来Hacknet。现在就开始我们的试炼吧
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+      <link comp="zerot1" />
+    </attachments>
+  </email>
+</mission>

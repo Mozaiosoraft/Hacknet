@@ -1,0 +1,33 @@
+<ConditionalActions>
+  
+  <OnConnect target="ZeroDHS" needsMissionComplete="false" >
+    <ChangeAlertIcon Target="zeroDHS" Type="irchub" DelayHost="extdelay" Delay="0.0"/>
+    <RunFunction FunctionName="RunFunction:Zero"/>	
+	<AddMissionToHubServer MissionFilepath="Missions/Set/1/1.xml" TargetComp="zeroDHS" AssignmentTag="Starlight_two" />
+	<AddMissionToHubServer MissionFilepath="Missions/Set/1/1.xml" TargetComp="zeroDHS" AssignmentTag="Mozai" />
+	<AddMissionToHubServer MissionFilepath="Missions/Set/1/1.xml" TargetComp="zeroDHS" AssignmentTag="Xiao_yong" />
+	<AddMissionToHubServer MissionFilepath="Missions/Set/1/1.xml" TargetComp="zeroDHS" AssignmentTag="U3u3u3" />
+	<AddMissionToHubServer MissionFilepath="Missions/Set/1/1.xml" TargetComp="zeroDHS" />	
+	<ChangeNetmapSortMethod DelayHost="zeroDHS" Delay="0.0" Method="LockGrid" />
+	<SwitchToTheme ThemePathOrName="Themes/HelloTime.xml" FlickerInDuration="2.0" DelayHost="secDHS" Delay="0" />
+	<AddIRCMessage Author="Cortana" TargetComp="zeroDHS" Delay="0.0">@AllUser-#PLAYERNAME#已经加入频道，大家粗来打个招呼吧！</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroDHS" Delay="0.0">Hi，#PLAYERNAME#！我是本DHS的机器人Cortana!</AddIRCMessage>
+	<AddIRCMessage Author="AICore" TargetComp="zeroDHS" Delay="22.0">#PLAYERNAME#已经加入加入内网白名单!</AddIRCMessage>
+	<AddIRCMessage Author="Xiao_yong" TargetComp="zeroDHS" Delay="23.45">@#PLAYERNAME#-欢迎加入我们!</AddIRCMessage>
+	<AddIRCMessage Author="U3u3u3" TargetComp="zeroDHS" Delay="24.15">@Xiao_yong-又来新人了</AddIRCMessage>	
+	<AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="25.45">@#PLAYERNAME#-欢迎加入我们!</AddIRCMessage>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="26.45">@AllUser-老子搞到ClockV2啦!要的去Tools服务器下载！</AddIRCMessage>	
+	<AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="27.45">@#PLAYERNAME#-我差点忘记了</AddIRCMessage>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="28.45">!ATTACHMENT:account#%#zeroDrop#%#111.111.111.111#%#admin#%#Zero_Drop</AddIRCMessage>
+    <AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="28.45">!ATTACHMENT:account#%#zeroTool#%#111.111.111.112#%#admin#%#Zero_Tool</AddIRCMessage>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="29.45">@AllUser-大家别聊了，开始干活吧!</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroDHS" Delay="30.0">@AllUser-Starlight_two已经加入频道，大家粗来打个招呼吧！</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="zeroDHS" Delay="31.5">Hi，Starlight_two！我是本DHS的机器人Cortana!</AddIRCMessage>
+	<AddIRCMessage Author="AICore" TargetComp="zeroDHS" Delay="32.0">Starlight_two已经加入加入内网白名单!</AddIRCMessage>
+	<AddIRCMessage Author="Xiao_yong" TargetComp="zeroDHS" Delay="33.45">@Starlight_two-又是你！快点开始干活吧!</AddIRCMessage>
+	<AddIRCMessage Author="Starlight_two" TargetComp="zeroDHS" Delay="34.5">好了，老子知道了!</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/StartingIRC.xml" />
+
+  </Instantly>
+
+</ConditionalActions>

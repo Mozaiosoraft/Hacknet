@@ -1,0 +1,1 @@
+<AircraftDaemon Name="中国南方航空-NF0071" OriginX="1.4304" OriginY="1.8339" DestX="1.6672" DestY="1.4264" Progress="1.5000" />

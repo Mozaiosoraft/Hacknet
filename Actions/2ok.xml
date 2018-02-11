@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+  <Instantly>
+	<AddIRCMessage Author="Starlight_two" TargetComp="zeroDHS" Delay="0.0">终于搞完了!</AddIRCMessage>
+	<AddIRCMessage Author="AICore" TargetComp="zeroDHS" Delay="4.0">-------------------</AddIRCMessage>
+	<AddIRCMessage Author="作者" TargetComp="zeroDHS" Delay="0.0">提示：还有一个超级残忍的任务！！！</AddIRCMessage>
+	<AddMissionToHubServer MissionFilepath="Missions/Set/3/3.xml" TargetComp="zeroDHS" />
+
+  </Instantly>
+
+</ConditionalActions>

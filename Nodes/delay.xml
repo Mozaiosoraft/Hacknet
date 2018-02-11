@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="extdelay"
+          name="ExtDelay"
+          ip="225.102.52.123"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4" >
+
+<adminPass pass="C" />
+
+<ports>21, 22, 25, 80, 1433, 6881, 443, 554</ports>
+
+<proxy time="2" />
+<portsForCrack val="8" />
+<firewall level="11"/>
+<trace time="200" />
+<admin type="none"/>
+
+</Computer>
