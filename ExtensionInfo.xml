@@ -1,7 +1,7 @@
 <HacknetExtension>
 <Language>zh-cn</Language>
   <!-- Max name length is 128 characters -->
-	<Name>Zero</Name>
+	<Name>Zero-Beta</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
