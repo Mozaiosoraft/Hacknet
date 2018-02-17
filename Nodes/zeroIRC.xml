@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zeroIRC" name="ZeroIRC" ip="9.9.9.9" type="empty" security="2" icon="DLCPC1" >
+
+<adminPass pass="1234" />
+
+  <portsForCrack val="999998" />
+  <ports>3724, 443</ports>
+  <trace time="-1" />
+  <proxy time="000.1"/>
+  <firewall level="1" />
+  <account username="#PLAYERNAME#" password="23333" type="ALL" />
+
+  <IRCDaemon themeColor="67,204,148" name="Zero-内部闲聊IRC" needsLogin="true">
+    <user name="作者" color="0,209,232"/>
+	<user name="Mozai" color="255, 0, 0"/>
+    <user name="Xiao_yong" color="117, 14, 6"/>
+    <user name="U3u3u3" color="63, 22, 117"/>
+    <user name="Cortana" color="255, 255, 154"/>
+    <user name="AICore" color="0, 214, 255"/>
+    <user name="Starlight_two" color="0, 0, 255"/>
+
+	
+  </IRCDaemon>
+  
+  
+</Computer>

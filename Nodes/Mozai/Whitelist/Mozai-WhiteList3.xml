@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Mozai-Whitelist3" name="Mozai-白名单3" ip="1111.1111.1111.0003" type="empty" security="998" allowsDefaultBootModule="false" icon="DLCPC1" >
+
+<adminPass pass="Mozai-V8q2" />
+
+  <proxy time="99998" />
+  <portsForCrack val="9999998" />
+  <ports>443, 1433</ports>
+  <portRemap>443=9580, 1433=3309</portRemap>
+  <trace time="0.001" />
+  
+  <file path="Whitelist" name="list.txt">
+  111.111.223.211
+  1337.1337.1337.1337
+  664.122.122.329</file>
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+</Computer>

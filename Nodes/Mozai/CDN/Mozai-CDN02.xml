@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Mozai-CDN02" name="Mozai-CDN加速节点02" ip="cdn.2.mozai.win" type="empty" security="2" icon="" >
+<adminPass pass="Mozai-DDoS_A"/>
+  <account username="TestAdmin" password="myname" type="ALL" />
+  <portsForCrack val="4" />
+  <firewall additionalTime="0.09" solution="MozaiUnity" level="7"/>
+  <ports>554, 80, 21, 22, 25, 104</ports>
+  <proxy time="1"/>
+  <portRemap>554=1887,80=9871,21=2333,22=4445,25=2122,104=445</portRemap>
+  <trace time="300" />
+
+  <WhitelistAuthenticatorDaemon Remote="Mozai-Whitelist1"/> 
+  <dlink target="Mozai-CDN02" />
+  <dlink target="Mozai_WebGate" />
+  <CustomConnectDisplayDaemon />
+  
+  
+</Computer>

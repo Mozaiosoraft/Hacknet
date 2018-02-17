@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Air2"
+          name="MZ_0019244_机载电脑"
+		  ip="0.0.0.2"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4" 
+		  ico="Server" >
+
+<adminPass pass="x" />
+
+<ports>21, 22, 25, 80</ports>
+
+<portsForCrack val="4" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="zeroDHS" />
+
+<AircraftDaemon Name="中国-Mozai航空-09192" OriginX="1.4304" OriginY="1.8339" DestX="1.6672" DestY="1.4264" Progress="1.5000" />
+
+
+</Computer>

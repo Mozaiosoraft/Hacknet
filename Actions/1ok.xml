@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+  <Instantly>
+ 	<AddMissionToHubServer MissionFilepath="Missions/Set/2/2.xml" TargetComp="zeroDHS" AssignmentTag="Starlight_two" />
+	<AddMissionToHubServer MissionFilepath="Missions/Set/2/2.xml" TargetComp="zeroDHS" />
+    <RunFunction FunctionName="playCustomSong:Music/PlayerGame.ogg"/>	
+	<AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="0.5">好简单啊</AddIRCMessage>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="1.0">我先跟其他人检查一下服务器了，记得看任务栏</AddIRCMessage>	
+  </Instantly>
+
+</ConditionalActions>

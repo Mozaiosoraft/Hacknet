@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zerot2"
+          name="Zero试炼节点 - Twe"
+		  ip="Zero.Server.Firewall.212"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4" 
+		  icon="DLCServer" >
+
+<adminPass pass="GGFGFGFGFGF" />
+<admin type="fast" resetPassword="false" isSuper="true" />
+
+<ports>21, 22, 25, 80, 1433, 104, 192, 6881, 443, 3724, 211, 554 </ports>
+<proxy time="9999999" />
+<portRemap>554=9999,80=9998,21=9997,22=9996,25=9995,104=9994,1433=9993,192=9992,6881=8,443=9990,3724=9989,211=9988</portRemap>
+<portsForCrack val="9999999" />
+
+
+<firewall level="999999" solution="FAIBRCEDERWRALTLR" additionalTime="9999"/>
+
+<trace time="999"/>
+
+  <CustomConnectDisplayDaemon />
+  
+  
+  
+ 
+  
+  
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <file path="bin" name="DNotes.exe">#NOTES_DUMPER_EXE#</file>
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  
+ <dlink target="zerot3" />
+  
+
+</Computer>

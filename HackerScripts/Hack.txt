@@ -1,0 +1,2 @@
+﻿config playerComp zeroDHS 0.2 $#%#$
+systakeover $#%#$

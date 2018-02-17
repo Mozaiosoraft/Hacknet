@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="NextMission1">
+  <goals>
+    <goal type="filedownload" target="laoqiuNodeBU" file="FTPSprint.exe" path="bin"/>
+  </goals>
+  
+   <missionEnd val="0">loadConditionalActions:Actions/2ok.xml</missionEnd>
+   
+  <nextMission>NONE</nextMission>
+  <posting title="寻找">寻找到FTP破解工具</posting>
+  
+  <email>
+    <sender>Mozai</sender>
+    <subject>寻找工具</subject>
+    <body>
+#PLAYERNAME#，由于你破解工具不足，你需要到一个叫laoqiu的人那里获取FTPSprint.exe，并上传到Upload Box。
+还有，我们找到一个IP:250.233.450.666，希望这对你有帮助。
+	
+-Mozai
+</body>
+    <attachments>
+      <link comp="laoqiuNode1" />
+    </attachments>
+  </email>
+</mission>

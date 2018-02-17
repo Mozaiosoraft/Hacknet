@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="NextMission2">
+  <goals>
+  
+  </goals>
+   
+  <nextMission>NONE</nextMission>
+  <posting title="Dead!!!">使4部飞机坠毁！！！</posting>
+  
+  <email>
+    <sender>Mozai</sender>
+    <subject>WARNING!!!</subject>
+    <body>
+#PLAYERNAME#，这项任务是考验你的同情心的。
+	
+-Mozai
+</body>
+    <attachments>
+      <link comp="Air1" />
+	  <link comp="Air2" />
+	  <link comp="Air3" />
+	  <link comp="Air4" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,27 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Mozai_Blog" name="Mozai的小博客" ip="110.119.120.114" type="empty" security="5" icon="Server" >
+<adminPass pass="Mozai-Blog"/>
+  <account username="TestAdmin" password="myname" type="ALL" />
+  <portsForCrack val="4" />
+  <firewall additionalTime="0.12" solution="MozaiisBlog" level="7"/>
+  <ports>554, 80, 21, 22, 25, 104</ports>
+  <proxy time="1"/>
+  <portRemap>554=1887,80=9871,21=2333,22=445,25=2122,104=445</portRemap>
+  <trace time="300" />
+   
+  <addWebServer name="blog.mozai.win" url="Web/Mozai-1.html" />
+   
+  <dlink target="Mozai_WebTemp"/> 
+  <dlink target="Mozai-DDoSwall_X01"/>
+  <dlink target="Mozai_WebDL"/> 
+  <dlink target="Mozai-CDN01"/> 
+ <!--
+ ##<dlink target="Mozai-独立路由"/>
+ -->
+ 
+  <CustomConnectDisplayDaemon />
+ <!-- <tracker />-->
+ <customthemefile path="log" name="Minecraft_x-server.sys" themePath="Themes/MC.xml"/>
+  
+  
+</Computer>

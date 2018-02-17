@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zeroTool"
+          name="Zero Tools"
+		  ip="111.111.111.112"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4" 
+		  ico="Server" >
+
+<adminPass pass="Zero_Tool" />
+
+<ports>21, 22, 25, 80</ports>
+
+<portsForCrack val="4" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<positionNear target="zeroTool" position="1" total="7" />
+
+<dlink target="zeroDHS" />
+<dlink target="zeroDrop" />
+
+  <file path="Tools" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="Tools" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="Tools" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="Tools" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="Tools" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="Tools" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="Tools" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="Tools" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="Tools" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="Tools" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  <file path="Tools" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="Tools" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="Tools" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="Tools" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="Tools" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="Tools" name="Clockv2.exe">#CLOCK_V2_EXE#</file>
+  
+  <WhitelistAuthenticatorDaemon Remote="whitelist" />
+  
+  <CustomConnectDisplayDaemon />
+
+
+</Computer>

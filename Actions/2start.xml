@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+  <Instantly>
+	<AddIRCMessage Author="Mozai" TargetComp="zeroDHS" Delay="0.5">@Starlight_two @#PLAYERNAME#-Laoqiu那项任务由你们两个负责</AddIRCMessage>
+	<AddIRCMessage Author="Starlight_two" TargetComp="zeroDHS" Delay="1.5">OK</AddIRCMessage>
+    <AddIRCMessage Author="Starlight_two" TargetComp="zeroDHS" Delay="34">@#PLAYERNAME#-白名单IP是:1928.2222.2221.1121</AddIRCMessage>
+	
+  </Instantly>
+
+</ConditionalActions>

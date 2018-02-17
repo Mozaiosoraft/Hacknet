@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Mozai_WebDL" name="Mozai 网络下载" ip="dl.mozai.win" type="empty" security="5" icon="chip" >
+<adminPass pass="Mozaidl"/>
+  <account username="TestAdmin" password="myname" type="ALL" />
+  <portsForCrack val="2" />
+  <firewall additionalTime="0.12" solution="MozaiDL" level="7"/>
+  <ports>443, 21, 3724</ports>
+  <proxy time="1"/>
+  <portRemap>443=9871,21=53,3724=3050</portRemap>
+  <trace time="300" />
+  
+  <file path="Stop" name="SQLTestTool.exe">#SQL_CRACK#</file>
+  <file path="Stop" name="NetmapSetting.exe">##NETMAP_ORGANIZER_EXE#</file>
+  
+  <file path="Stop" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="Stop" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  
+ <!--
+ ##<dlink target="Mozai-独立路由"/>
+ -->
+ 
+  <CustomConnectDisplayDaemon />
+  <WhitelistAuthenticatorDaemon Remote="Mozai-Whitelist2"/> 
+  
+  
+</Computer>

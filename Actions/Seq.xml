@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<!--Sequencer Actions-->
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Bleed_Music.ogg"/>
+<SwitchToTheme ThemePathOrName="Themes/MC.xml" FlickerInDuration="2.0" DelayHost="extdelay" Delay="0" />
+<StartScreenBleedEffect AlertTitle="DEVTEST MODE" CompleteAction="Actions/Seq.xml" TotalDurationSeconds="1" DelayHost="extdelay" Delay="0">WARNING:扩展为测试品，当前是测试模式！！！！</StartScreenBleedEffect>
+</Instantly>
+
+</ConditionalActions>

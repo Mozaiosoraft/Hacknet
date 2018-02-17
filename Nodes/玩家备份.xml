@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PlayerComp_Backups" name="#PLAYERNAME#_循环_备份_密码是apples" ip="262.219.0.191" type="empty" security="3" icon="Server" >
+
+<adminPass pass="apples" />
+
+  <portsForCrack val="0" />
+  <ports>192, 6881, 554, 443</ports>
+  <trace time="60" />
+  
+  <file path="home" name="Info.docx">782404856</file>
+  
+ 
+
+</Computer>

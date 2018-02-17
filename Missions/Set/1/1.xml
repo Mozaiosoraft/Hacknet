@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="StartingMission1">
+  <goals>
+
+  </goals>
+  <missionEnd val="1">loadConditionalActions:Actions/1ok.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="获取密码">获取那个服务器的密码</posting>
+  
+  <email>
+    <sender>Mozai</sender>
+    <subject>获取密码</subject>
+    <body>
+Hi,#PLAYERNAME#我需要你获取一个服务器的密码，并回复给我。
+	
+-Mozai
+</body>
+    <attachments>
+      <link comp="Psw" />
+    </attachments>
+  </email>
+</mission>

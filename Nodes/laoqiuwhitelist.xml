@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="laoqiu_whitelist" name="这里什么都没有" ip="250.233.450.666" type="empty" security="10" >
+
+<adminPass pass="Shit" />
+  
+  <portsForCrack val="2" />
+  <ports>22, 554</ports>
+  <proxy time="1" />
+  <trace time="54250" />
+  
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+  <file path="Whitelist" name="list.txt">233.250.450.666</file>
+  
+  <positionNear target="laoqiuNode1" position="2" total="3" extraDistance="-0.2"/>
+  
+  <dlink target="laoqiuNodeBU" />
+  <dlink target="laoqiuNode" />
+  
+  
+</Computer>

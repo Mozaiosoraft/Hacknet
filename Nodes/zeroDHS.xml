@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zeroDHS"
+          name="ZeroDHS"
+          ip="999999.999999.999999.999999"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4" 
+		  ico="Server" >
+
+<adminPass pass="COREDHS" />
+
+<ports>443</ports>
+
+<proxy time="999999" />
+<portsForCrack val="999998" />
+<firewall level="10000"/>
+<trace time="0" />
+
+<!--<dlink target="Drop" /-->
+
+<positionNear target="zeroDHS" position="1" total="3" />
+
+<DHSDaemon groupName="ZeroDHS" addsFactionPointOnMissionComplete="true"
+           autoClearMissionsOnPlayerComplete="true" themeColor="255,0,0"
+           allowContractAbandon="false">
+
+<agent name="Mozai" pass="CoreAdmin-3356" color="255, 0, 0"/>
+<agent name="Xiao_yong" pass="CoreUser-4712" color="117, 14, 6"/>
+<agent name="U3u3u3" pass="CoreUser-5871" color="63, 22, 117"/>
+<agent name="Cortana" pass="CoreCore" color="255, 255, 154"/>
+<agent name="作者" pass="CoreAdmin-3356" color="255, 0, 0"/>
+<agent name="AICore" pass="CoreAdmin-3351" color="0, 214, 255"/>
+<agent name="Starlight_two" pass="CoreAdmin-3451" color="0, 0, 255"/>
+</DHSDaemon>
+
+<WhitelistAuthenticatorDaemon Remote="whitelist" />
+
+<CustomConnectDisplayDaemon />
+
+</Computer>

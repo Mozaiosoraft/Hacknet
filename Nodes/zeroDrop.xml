@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zeroDrop"
+          name="Zero共享"
+		  ip="111.111.111.111"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4" 
+		  ico="Server" >
+
+<adminPass pass="Zero_Drop" />
+
+<ports>21, 22, 25, 80</ports>
+
+<portsForCrack val="4" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<positionNear target="zeroDrop" position="1" total="5" />
+
+<dlink target="zeroDHS" />
+
+<uploadServerDaemon name="Zero Upload Box" folder="Drop"
+                    needsAuth="false" color="255, 0, 0"/>
+
+<WhitelistAuthenticatorDaemon Remote="whitelist" />
+<CustomConnectDisplayDaemon />
+
+<customthemefile path="Themes" name="HackNum_x-server.sys" themePath="Themes/HackNum.xml"/>
+<customthemefile path="log" name="Minecraft_x-server.sys" themePath="Themes/MC.xml"/>
+
+
+</Computer>

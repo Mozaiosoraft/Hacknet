@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zerot3"
+          name="Zero试炼节点 - Three"
+		  ip="Zero.Host.215.125"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4" 
+		  ico="Server" >
+
+<adminPass pass="ccchacker" />
+
+<ports>80, 22, 21, 443, 192</ports>
+<portRemap>80=8080,21=9012,192=1314</portRemap>
+
+<portsForCrack val="5" />
+<firewall level="3" solution="FAIBRCEDERWRALTLRFIDCJSA" additionalTime="0.5"/>
+<admin type="progress" resetPassword="false" isSuper="true"/>
+  
+  
+  <trace time="2" />
+  <CustomConnectDisplayDaemon />
+  <dlink target="zerot4" />
+
+</Computer>

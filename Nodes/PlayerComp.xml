@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME# 网关基地" ip="132.166.240.254" security="3" allowsDefaultBootModule="false" type="1" icon="Server">
+
+<adminPass pass="password" />
+<account username="#PLAYERNAME#" password="#PLAYERNAME#TMSBPC" type="ADMIN" />
+
+<ports>21, 22, 25, 80</ports>
+
+<proxy time="20" />
+<portsForCrack val="9999998" />
+<trace time="30" />
+
+<positionNear target="playerComp" position="1" total="1" />
+
+<file path="bin" name="TestModeStart.exe">#EXT_SEQUENCER_EXE#</file>
+
+<dlink target="PlayerComp_Backups" />
+
+<WhitelistAuthenticatorDaemon Remote="whitelist" />
+<CustomConnectDisplayDaemon />
+
+
+
+</Computer>

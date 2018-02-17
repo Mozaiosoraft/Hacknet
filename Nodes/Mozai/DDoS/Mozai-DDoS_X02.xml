@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Mozai-DDoswall_X02" name="Mozai-重负荷服务器_X02" ip="255.255.240.242" type="empty" security="2" icon="DLCServer" >
+<adminPass pass="Mozai-DDoS_B"/>
+  <account username="TestAdmin" password="myname" type="ALL" />
+  <portsForCrack val="4" />
+  <firewall additionalTime="0.09" solution="MozaiUnity" level="7"/>
+  <ports>554, 80, 21, 22, 25, 104</ports>
+  <proxy time="1"/>
+  <portRemap>554=1887,80=9871,21=2333,22=4445,25=2122,104=445</portRemap>
+  <trace time="300" />
+  <dlink target="Mozai-DDoswall_X03" />
+
+   <WhitelistAuthenticatorDaemon Remote="Mozai-Whitelist1"/> 
+  <CustomConnectDisplayDaemon />
+  
+  
+</Computer>
